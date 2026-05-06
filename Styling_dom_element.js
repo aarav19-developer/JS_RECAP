@@ -109,7 +109,17 @@ const form = document.getElementById("form");
 form.addEventListener('submit',(event)=>{
     event.preventDefault(); // Stop form from submitting normally
     alert("form submitted")
-
+    
 })
 
-// continue from Headers.apply.apply.
+
+
+// -----------------------------------------------------------------------------------------------------------------------//
+
+// document.addEventListener('keydown', function(event){
+//     alert("You pressed: " + event.key)
+// })
+
+
+// -----------------------------------------------------------------------------------------------------------------------//
+
