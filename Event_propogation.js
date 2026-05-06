@@ -26,5 +26,6 @@ document.getElementById("btn1").addEventListener("click",()=>{
 });
 
 document.getElementById("myform").addEventListener("submit",function(e){
-    console.log("Form submitted with automatically")
+    e.preventDefault(); // help in stops page reload
+    alert("Form submitted with automatically")
 })
