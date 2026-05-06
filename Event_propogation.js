@@ -14,3 +14,13 @@ document.getElementById("inner").addEventListener("click", ()=>{
 document.getElementById("btn").addEventListener("click", ()=>{
     alert("Button Clicked");
 });
+
+document.getElementById("outer1").addEventListener("click",()=>{
+    alert("Outer Div(Bubbling)")
+});
+document.getElementById("inner1").addEventListener("click",()=>{
+    alert("Inner Div(Bubbling)")
+});
+document.getElementById("btn1").addEventListener("click",()=>{
+    alert("Button clicked")
+});
