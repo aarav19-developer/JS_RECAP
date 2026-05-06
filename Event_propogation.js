@@ -24,3 +24,7 @@ document.getElementById("inner1").addEventListener("click",()=>{
 document.getElementById("btn1").addEventListener("click",()=>{
     alert("Button clicked")
 });
+
+document.getElementById("myform").addEventListener("submit",function(e){
+    console.log("Form submitted with automatically")
+})
